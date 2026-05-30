@@ -358,3 +358,29 @@ section {
   transform: translateY(-5px);
   color: var(--gold);
 }
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.btn-live,
+.btn-github {
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease;
+  font-size: 0.9rem;
+}
+.project-link {
+  color: var(--gold);
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
