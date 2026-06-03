@@ -205,6 +205,12 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
 }
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
 
 .project-card {
   background: var(--card);
@@ -259,6 +265,19 @@ section {
   opacity: 0.8;
 }
 
+.project-links a {
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--gold);
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--gold);
+  transition: 0.3s ease;
+}
+
+.project-links a:hover {
+  background: var(--gold);
+  color: black;
+}
 .skills-container {
   display: flex;
   flex-wrap: wrap;
